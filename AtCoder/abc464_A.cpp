@@ -17,10 +17,10 @@ int main(){
         }
     }
 
-            if(w > e){
-            cout << "West\n";
-        }
-        else{
-            cout << "East\n";
-        }
+        if(w > e){
+        cout << "West\n";
+    }
+    else{
+        cout << "East\n";
+    }
 }
