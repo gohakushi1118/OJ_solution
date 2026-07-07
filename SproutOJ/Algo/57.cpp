@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    priority_queue<int, vector<int>, greater<int>> heap;
+    priority_queue<int> heap;
     int num;
     cin >> num;
 
@@ -15,12 +15,11 @@ int main(){
             cin >> m;
             heap.push(m);
         }
-        if (n == 2){
+        else{
             if (heap.size() == 0){
-                cout << "empty\n";
+                cout << "empty!\n";
             }
-            else{
-                cout << heap.top() << "\n";
+            if (n == 2){
                 heap.pop();
             }
         }
