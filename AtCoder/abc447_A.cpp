@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n, m;
     cin >> n >> m;
-    if (n == m && n != 1){
+    if (n == m && n != ){
     	cout << "No";
     }
     else if (n % 2 == 0 && (n / 2) >= m){
